@@ -39,7 +39,7 @@ class LoginView extends StatelessWidget {
   Widget loginButton() {
     return ElevatedButton(
       onPressed: () {
-        loginViewModel.loginButton();
+        loginViewModel.loginButton2();
       },
       child: const Text('Login With Google'),
     );
